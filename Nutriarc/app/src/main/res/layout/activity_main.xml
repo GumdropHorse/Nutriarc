@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F1F1CB"
+    android:background="@drawable/background_nutriarc"
     tools:context=".MainActivity">
 
     <TextView
@@ -19,7 +19,7 @@
         android:fontFamily="@font/titan_one_regular"/>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/journal_btn"
         android:layout_width="221dp"
         android:layout_height="102dp"
         android:backgroundTint="#C58947"
@@ -29,7 +29,7 @@
         android:textSize="25dp"/>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/tips_btn"
         android:layout_width="221dp"
         android:layout_height="102dp"
         android:backgroundTint="#C58947"
@@ -39,11 +39,11 @@
         android:textSize="25dp"/>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/recipes_btn"
         android:layout_width="221dp"
         android:layout_height="102dp"
         android:backgroundTint="#C58947"
-        android:text="Recipies"
+        android:text="Recipes"
         tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="526dp"
         android:textSize="25dp"/>
