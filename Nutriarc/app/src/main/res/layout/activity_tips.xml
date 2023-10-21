@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tips"
+    android:background="#F1F1CB">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="236dp"
+        android:layout_height="65dp"
+        android:text="Nutriarc"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="64dp"
+        android:textColor="#733B08"
+        android:fontFamily="@font/titan_one_regular"/>
+
+    <TextView
+        android:layout_width="387dp"
+        android:layout_height="133dp"
+        android:text="Here are some helpful tips to eat in a 'mindful' way!"
+        android:textColor="#733B08"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="37dp"
+        android:text="Tip"
+        android:textColor="#733B08"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="37dp"
+        android:text="Tip"
+        android:textColor="#733B08"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="37dp"
+        android:text="Tip"
+        android:textColor="#733B08"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="37dp"
+        android:text="Tip"
+        android:textColor="#733B08"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="37dp"
+        android:text="Tip"
+        android:textColor="#733B08"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="31dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
