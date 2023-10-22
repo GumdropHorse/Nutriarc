@@ -7,7 +7,7 @@
     android:background="@drawable/background_nutriarc"
     tools:context=".calendar">
 
-    <ImageButton
+    <ImageView
         android:id="@+id/backbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week1day1"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -39,7 +39,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week1day2"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -50,7 +50,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week1day3"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -61,7 +61,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week1day4"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -72,7 +72,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week1day5"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -83,7 +83,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week1day6"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -94,7 +94,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week1day7"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -105,7 +105,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week2day1"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -116,7 +116,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week2day2"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -127,7 +127,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week2day3"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -138,7 +138,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week2day4"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -149,7 +149,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week2day5"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -160,7 +160,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week2day6"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -171,7 +171,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week2day7"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -182,7 +182,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week3day1"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -193,7 +193,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week3day2"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -204,7 +204,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week3day3"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -215,7 +215,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week3day4"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -226,7 +226,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week3day5"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -237,7 +237,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week3day6"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -248,7 +248,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week3day7"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -259,7 +259,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week4day1"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -270,7 +270,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week4day2"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -281,7 +281,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week4day3"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -292,7 +292,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week4day4"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -303,7 +303,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week4day5"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -314,7 +314,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week4day6"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -325,7 +325,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week4day7"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -336,7 +336,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week5day1"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -347,7 +347,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week5day2"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -358,7 +358,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week5day3"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -369,7 +369,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week5day4"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -380,7 +380,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week5day5"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -391,7 +391,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week5day6"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
@@ -402,7 +402,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/week5day7"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
