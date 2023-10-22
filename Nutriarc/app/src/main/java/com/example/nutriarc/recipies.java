@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.net.Uri;
+import android.widget.ImageView;
 
 public class recipies extends AppCompatActivity {
 
@@ -20,7 +21,7 @@ public class recipies extends AppCompatActivity {
     }
 
     private void configureBackBtn(){
-        ImageButton backBtn = (ImageButton) findViewById(R.id.backbtn);
+        ImageView backBtn = (ImageView) findViewById(R.id.backbtn);
         backBtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
