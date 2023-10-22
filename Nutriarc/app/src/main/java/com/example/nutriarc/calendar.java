@@ -404,7 +404,7 @@ private void configureW1D3(){
     }
                 private void configureW5D6(){
         ImageButton w5d6 = (ImageButton) findViewById(R.id.week5day6);
-        w5d1.setOnClickListener(new View.OnClickListener(){
+        w5d6.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 displaymood(w5d6);

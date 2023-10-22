@@ -12,295 +12,406 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@android:drawable/ic_menu_revert"
-        tools:layout_editor_absoluteX="323dp"
-        tools:layout_editor_absoluteY="29dp" />
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <CalendarView
         android:id="@+id/calendarView"
         android:layout_width="367dp"
         android:layout_height="315dp"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="111dp" />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week1day1"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="201dp" />
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="185dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week1day2"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="201dp" />
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="185dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <ImageButton
         android:id="@+id/week1day3"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="201dp" />
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="185dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week1day4"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="201dp" />
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="185dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week1day5"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="201dp" />
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="185dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week1day6"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="273dp"
-        tools:layout_editor_absoluteY="201dp" />
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="185dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week1day7"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="316dp"
-        tools:layout_editor_absoluteY="201dp" />
+        android:layout_marginStart="317dp"
+        android:layout_marginTop="185dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week2day1"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="245dp" />
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="228dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week2day2"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="245dp" />
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="228dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week2day3"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="245dp" />
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="228dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week2day4"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="245dp" />
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="228dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <ImageButton
         android:id="@+id/week2day5"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="245dp" />
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="228dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week2day6"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="273dp"
-        tools:layout_editor_absoluteY="245dp" />
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="228dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week2day7"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="316dp"
-        tools:layout_editor_absoluteY="245dp" />
+        android:layout_marginStart="317dp"
+        android:layout_marginTop="228dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week3day1"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="285dp" />
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="268dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week3day2"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="285dp" />
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="268dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week3day3"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="285dp" />
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="268dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week3day4"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="285dp" />
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="268dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week3day5"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="285dp" />
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="268dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week3day6"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="273dp"
-        tools:layout_editor_absoluteY="285dp" />
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="268dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week3day7"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="316dp"
-        tools:layout_editor_absoluteY="285dp" />
+        android:layout_marginStart="317dp"
+        android:layout_marginTop="268dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week4day1"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="325dp" />
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="308dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week4day2"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="325dp" />
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="308dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week4day3"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="325dp" />
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="308dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week4day4"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="325dp" />
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="308dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week4day5"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="325dp" />
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="308dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week4day6"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="273dp"
-        tools:layout_editor_absoluteY="325dp" />
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="308dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week4day7"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="316dp"
-        tools:layout_editor_absoluteY="325dp" />
+        android:layout_marginStart="317dp"
+        android:layout_marginTop="308dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week5day1"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="365dp" />
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week5day2"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="365dp" />
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week5day3"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="365dp" />
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week5day4"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="365dp" />
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week5day5"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="365dp" />
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <ImageButton
         android:id="@+id/week5day6"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="273dp"
-        tools:layout_editor_absoluteY="365dp" />
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/week5day7"
         app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
-        tools:layout_editor_absoluteX="316dp"
-        tools:layout_editor_absoluteY="365dp" />
+        android:layout_marginStart="317dp"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextText"
@@ -311,7 +422,10 @@
         android:text="Keep any notes about how you felt when you ate here!"
         android:textSize="15dp"
         android:textColor="#733B08"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="516dp" />
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="480dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
