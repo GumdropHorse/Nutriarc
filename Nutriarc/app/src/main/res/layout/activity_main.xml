@@ -30,11 +30,9 @@
         android:backgroundTint="#C58947"
         android:text="Journal"
         android:textSize="25dp"
-        android:layout_margin="190dp"
-        android:layout_marginStart="49dp"
-        android:layout_marginEnd="49dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="165dp"
         android:gravity="center"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
@@ -46,23 +44,53 @@
         android:text="Recipes"
         android:textSize="25dp"
         android:layout_marginStart="95dp"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="300dp"
         android:gravity="center"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tip_generator"
-        android:layout_width="300dp"
-        android:layout_height="200dp"
+        android:layout_width="376dp"
+        android:layout_height="299dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="420dp"
         android:background="#733B08"
+        android:gravity="center"
         android:text="Hewwo :3"
         android:textColor="#ffffff"
         android:textSize="25dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="490dp"
-        android:gravity="center"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="143dp"
+        android:layout_height="141dp"
+        app:srcCompat="@drawable/leaf"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageView
+        android:layout_width="143dp"
+        android:layout_height="141dp"
+        app:srcCompat="@drawable/leaf"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageView
+        android:layout_width="143dp"
+        android:layout_height="141dp"
+        app:srcCompat="@drawable/leaf"
+        android:layout_marginStart="-20dp"
+        android:layout_marginTop="230dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

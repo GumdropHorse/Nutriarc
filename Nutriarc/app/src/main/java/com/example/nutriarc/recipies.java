@@ -35,7 +35,7 @@ public class recipies extends AppCompatActivity {
         recipe1btn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Uri uri = Uri.parse("http://www.google.com");
+                Uri uri = Uri.parse("https://www.tasteofhome.com/recipes/spicy-lemon-chicken-kabobs/");
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
             }
@@ -47,7 +47,7 @@ public class recipies extends AppCompatActivity {
         recipe2btn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Uri uri = Uri.parse("http://www.google.com");
+                Uri uri = Uri.parse("https://easyfamilyrecipeideas.com/frozen-yogurt-bark/");
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
             }
@@ -59,7 +59,7 @@ public class recipies extends AppCompatActivity {
         recipe3btn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Uri uri = Uri.parse("http://www.google.com");
+                Uri uri = Uri.parse("https://www.madetobeamomma.com/roasted-parmesan-green-beans/");
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
             }

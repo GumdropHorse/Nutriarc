@@ -3,20 +3,25 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 <item
     android:id="@+id/nothing"
-    android:icon="@drawable/nothing" />
+    android:icon="@drawable/nothing"
+    android:title="" />
 
 <item
     android:id="@+id/happy"
     android:icon="@drawable/happy"
-    app:showAsAction="always"/>
+    app:showAsAction="always"
+    
+    android:title=""/>
 
 <item
     android:id="@+id/mefr"
     android:icon="@drawable/mefr"
-    app:showAsAction="always" />
+    app:showAsAction="always"
+    android:title=""/>
 
 <item
     android:id="@+id/angy"
     android:icon="@drawable/angy"
-    app:showAsAction="always"/>
+    app:showAsAction="always"
+    android:title=""/>
 </menu>

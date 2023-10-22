@@ -85,20 +85,22 @@ public class calendar extends AppCompatActivity {
         PopupMenu popup = new PopupMenu(calendar.this, btn);
         //Inflating the Popup using xml file
         popup.getMenuInflater().inflate(R.menu.popup_menu, popup.getMenu());
+        popup.setForceShowIcon(true);
 
         //registering popup with OnMenuItemClickListener
         popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem item) {
-                if (item.getItemId() == 0) {
+                if (item.getItemId() == R.id.nothing) {
                     btn.setBackgroundResource(R.drawable.nothing);
-                }else if (item.getItemId() == 1){
+                }else if (item.getItemId() == R.id.happy){
                     btn.setBackgroundResource(R.drawable.happy);
-                }else if (item.getItemId() == 2){
+                }else if (item.getItemId() == R.id.mefr){
                     btn.setBackgroundResource(R.drawable.mefr);
                 }else{
                     btn.setBackgroundResource(R.drawable.angy);
                 }
+
                 return false;
             }
         });
