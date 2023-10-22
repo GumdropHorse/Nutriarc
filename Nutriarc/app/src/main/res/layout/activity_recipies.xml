@@ -37,6 +37,7 @@
         tools:layout_editor_absoluteY="279dp" />
 
     <ImageButton
+        android:id="@+id/recipe1"
         android:layout_width="172dp"
         android:layout_height="117dp"
         tools:layout_editor_absoluteX="183dp"
@@ -53,6 +54,7 @@
         tools:layout_editor_absoluteY="436dp" />
 
     <ImageButton
+        android:id="@+id/recipe2"
         android:layout_width="172dp"
         android:layout_height="117dp"
         tools:layout_editor_absoluteX="183dp"
@@ -69,6 +71,7 @@
         tools:layout_editor_absoluteY="580dp" />
 
     <ImageButton
+        android:id="@+id/recipe3"
         android:layout_width="172dp"
         android:layout_height="117dp"
         tools:layout_editor_absoluteX="183dp"
@@ -76,12 +79,12 @@
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/backbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@android:drawable/ic_menu_revert"
         tools:layout_editor_absoluteX="323dp"
-        tools:layout_editor_absoluteY="31dp" />
+        tools:layout_editor_absoluteY="29dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

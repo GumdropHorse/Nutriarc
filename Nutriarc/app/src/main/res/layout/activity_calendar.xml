@@ -7,6 +7,13 @@
     android:background="@drawable/background_nutriarc"
     tools:context=".calendar">
 
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="29dp" />
 
     <CalendarView
         android:id="@+id/calendarView"
@@ -15,249 +22,294 @@
         tools:layout_editor_absoluteX="22dp"
         tools:layout_editor_absoluteY="111dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week1day1"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="201dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week1day2"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="82dp"
         tools:layout_editor_absoluteY="201dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week1day3"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="132dp"
         tools:layout_editor_absoluteY="201dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week1day4"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="179dp"
         tools:layout_editor_absoluteY="201dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week1day5"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="225dp"
         tools:layout_editor_absoluteY="201dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week1day6"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="273dp"
         tools:layout_editor_absoluteY="201dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week1day7"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="316dp"
         tools:layout_editor_absoluteY="201dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week2day1"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="245dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week2day2"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="82dp"
         tools:layout_editor_absoluteY="245dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week2day3"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="132dp"
         tools:layout_editor_absoluteY="245dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week2day4"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="179dp"
         tools:layout_editor_absoluteY="245dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week2day5"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="225dp"
         tools:layout_editor_absoluteY="245dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week2day6"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="273dp"
         tools:layout_editor_absoluteY="245dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week2day7"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="316dp"
         tools:layout_editor_absoluteY="245dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week3day1"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="285dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week3day2"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="82dp"
         tools:layout_editor_absoluteY="285dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week3day3"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="132dp"
         tools:layout_editor_absoluteY="285dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week3day4"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="179dp"
         tools:layout_editor_absoluteY="285dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week3day5"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="225dp"
         tools:layout_editor_absoluteY="285dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week3day6"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="273dp"
         tools:layout_editor_absoluteY="285dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week3day7"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="316dp"
         tools:layout_editor_absoluteY="285dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week4day1"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="325dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week4day2"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="82dp"
         tools:layout_editor_absoluteY="325dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week4day3"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="132dp"
         tools:layout_editor_absoluteY="325dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week4day4"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="179dp"
         tools:layout_editor_absoluteY="325dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week4day5"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="225dp"
         tools:layout_editor_absoluteY="325dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week4day6"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="273dp"
         tools:layout_editor_absoluteY="325dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week4day7"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="316dp"
         tools:layout_editor_absoluteY="325dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week5day1"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="365dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week5day2"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="82dp"
         tools:layout_editor_absoluteY="365dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week5day3"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="132dp"
         tools:layout_editor_absoluteY="365dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week5day4"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="179dp"
         tools:layout_editor_absoluteY="365dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week5day5"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="225dp"
         tools:layout_editor_absoluteY="365dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week5day6"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="273dp"
         tools:layout_editor_absoluteY="365dp" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/week5day7"
+        app:srcCompat="@drawable/nothing"
         android:layout_width="50dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteX="316dp"
         tools:layout_editor_absoluteY="365dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="315dp"
+        android:layout_height="199dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="515dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/nothing"
+    android:icon="@drawable/nothing" />
+
+<item
+    android:id="@+id/happy"
+    android:icon="@drawable/happy"
+    app:showAsAction="always"/>
+
+<item
+    android:id="@+id/mefr"
+    android:icon="@drawable/mefr"
+    app:showAsAction="always" />
+
+<item
+    android:id="@+id/angy"
+    android:icon="@drawable/angy"
+    app:showAsAction="always"/>
+</menu>
