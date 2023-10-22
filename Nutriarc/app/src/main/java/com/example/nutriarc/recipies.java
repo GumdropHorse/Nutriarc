@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.net.Uri;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class recipies extends AppCompatActivity {
 
@@ -31,7 +32,7 @@ public class recipies extends AppCompatActivity {
     }
 
     private void configureRecipe1(){
-        ImageButton recipe1btn = (ImageButton) findViewById(R.id.recipe1);
+        TextView recipe1btn = (TextView) findViewById(R.id.recipe1_txt);
         recipe1btn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -43,7 +44,7 @@ public class recipies extends AppCompatActivity {
     }
 
     private void configureRecipe2(){
-        ImageButton recipe2btn = (ImageButton) findViewById(R.id.recipe2);
+        TextView recipe2btn = (TextView) findViewById(R.id.recipe2_txt);
         recipe2btn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -55,7 +56,7 @@ public class recipies extends AppCompatActivity {
     }
 
     private void configureRecipe3(){
-        ImageButton recipe3btn = (ImageButton) findViewById(R.id.recipe3);
+        TextView recipe3btn = (TextView) findViewById(R.id.recipe3_txt);
         recipe3btn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
